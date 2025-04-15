@@ -53,14 +53,14 @@ main {
   line-height: 1.6;
 }
 
-/* Floated Image */
+@media (max-width: 600px) {
 .float-img {
-  width: 25%;         
-  max-width: 150px;    
-  height: auto;       
-  float: left;        
-  margin: 0 1em 1em 0; 
-  border-radius: 8px;  
+  width: 30%;
+  max-width: 200px; 
+  height: auto;
+  float: left;
+  margin: 0 1em 1em 0;
+  border-radius: 8px;
 }
 
 /* Footer */
