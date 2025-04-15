@@ -55,12 +55,12 @@ main {
 
 /* Floated Image */
 .float-img {
-  float: left;
-  max-width: 100%;
-  width: 40%;
-  height: auto;
-  margin: 0 1em 1em 0;
-  border-radius: 8px;
+  width: 40%;         
+  max-width: 300px;    
+  height: auto;       
+  float: left;        
+  margin: 0 1em 1em 0; 
+  border-radius: 8px;  
 }
 
 /* Footer */
