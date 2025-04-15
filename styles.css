@@ -23,6 +23,7 @@ footer {
 main {
     padding: 20px;
     text-align: center;
+    
 }
 
 nav ul {
@@ -52,5 +53,10 @@ nav a:hover {
   height: auto;     
   display: block;
   margin: 0 auto 20px auto; 
+}
+
+body {
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+  color: #2f4f2f;
 }
 
