@@ -7,10 +7,17 @@ body, html {
 }
 
 header {
-  background-color: #a9cbb7; 
+  background-color: #a9cbb7; /* soft sage green */
   padding: 1em 0;
   text-align: center;
   color: #2f4f2f; /* deep olive text */
+}
+
+footer {
+  background-color: #c96e49; /* warm terracotta */
+  padding: 1em 0;
+  text-align: center;
+  color: #fffbe6; /* soft off-white for contrast */
 }
 
 main {
@@ -47,6 +54,3 @@ nav a:hover {
   margin: 0 auto 20px auto; 
 }
 
-footer {
-    background-color: #c96e49;
-}
