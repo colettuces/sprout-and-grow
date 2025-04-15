@@ -2,13 +2,13 @@ body, html {
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #f5f1e5; /* Soft, warm beige */
-  color: #2f4f2f; /* Deep olive text for earthy contrast */
+  background-color: #f5f1e5; 
+  color: #2f4f2f; 
 }
 
 /* Header */
 header {
-  background-color: #a9cbb7; /* Soft sage green */
+  background-color: #a9cbb7; 
   padding: 1em 0;
   text-align: center;
   color: #2f4f2f;
@@ -48,7 +48,7 @@ nav a:hover {
 /* Main Content */
 main {
   padding: 2em;
-  margin: 0 10%; /* 10% minimum page margin */
+  margin: 0 10%; 
   font-size: 1.1rem;
   line-height: 1.6;
 }
@@ -65,10 +65,10 @@ main {
 
 /* Footer */
 footer {
-  background-color: #c96e49; /* Warm terracotta */
+  background-color: #c96e49; 
   padding: 1.5em 0;
   text-align: center;
-  color: #fffbe6; /* Light warm yellow for contrast */
+  color: #fffbe6; 
   margin-top: 3em;
 }
 
