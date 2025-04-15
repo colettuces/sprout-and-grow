@@ -55,7 +55,7 @@ main {
 
 /* Floated Image */
 .float-img {
-  width: 40%;         
+  width: 25%;         
   max-width: 150px;    
   height: auto;       
   float: left;        
