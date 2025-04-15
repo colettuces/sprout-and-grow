@@ -1,31 +1,29 @@
-
-
 body, html {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f1e5; /* Soft, warm beige */
+  color: #2f4f2f; /* Deep olive text for earthy contrast */
 }
 
+/* Header */
 header {
-  background-color: #a9cbb7; 
+  background-color: #a9cbb7; /* Soft sage green */
   padding: 1em 0;
   text-align: center;
-  color: #2f4f2f; 
+  color: #2f4f2f;
 }
 
-footer {
-  background-color: #c96e49; 
-  padding: 1em 0;
-  text-align: center;
-  color: #fffbe6; 
+/* Logo */
+.logo {
+  width: 30%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px auto;
 }
 
-main {
-    padding: 20px;
-    text-align: center;
-    
-}
-
+/* Navigation */
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -38,7 +36,7 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: #2f4f2f; /* Forest green */
+  color: #2f4f2f;
   font-weight: bold;
   font-size: 1.1rem;
 }
@@ -47,16 +45,37 @@ nav a:hover {
   text-decoration: underline;
 }
 
-.logo {
-  width: 30%;        
-  max-width: 300px;  
-  height: auto;     
-  display: block;
-  margin: 0 auto 20px auto; 
+/* Main Content */
+main {
+  padding: 2em;
+  margin: 0 10%; /* 10% minimum page margin */
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
 
-body {
-  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
-  color: #2f4f2f;
+/* Floated Image */
+.float-img {
+  float: left;
+  max-width: 100%;
+  width: 40%;
+  height: auto;
+  margin: 0 1em 1em 0;
+  border-radius: 8px;
 }
 
+/* Footer */
+footer {
+  background-color: #c96e49; /* Warm terracotta */
+  padding: 1.5em 0;
+  text-align: center;
+  color: #fffbe6; /* Light warm yellow for contrast */
+  margin-top: 3em;
+}
+
+/* Social Icons */
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  vertical-align: middle;
+}
