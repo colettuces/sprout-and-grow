@@ -1,9 +1,12 @@
-body, html {
+html, body {
+  height: 100%;
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #f5f1e5; 
-  color: #2f4f2f; 
+  background-color: #f5f1e5;
+  color: #2f4f2f;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Header */
@@ -46,13 +49,15 @@ nav a:hover {
 }
 
 /* Main Content */
+
 main {
+  flex: 1;
   padding: 2em;
-  margin: 0 10%; 
+  margin: 0 10%;
   font-size: 1.1rem;
   line-height: 1.6;
-  height: auto;
 }
+
 
 .float-img {
   width: 40%;
@@ -65,11 +70,11 @@ main {
 
 /* Footer */
 footer {
-  background-color: #c96e49; 
+  background-color: #c96e49;
   padding: 1.5em 0;
   text-align: center;
-  color: #fffbe6; 
-  margin-top: 3em;
+  color: #fffbe6;
+  margin-top: auto; 
 }
 
 /* Social Icons */
