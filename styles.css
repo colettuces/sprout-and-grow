@@ -68,6 +68,15 @@ main {
   border-radius: 8px;
 }
 
+.float-img-bottom {
+  float: right;
+  width: 30%;
+  max-width: 250px;
+  height: auto;
+  margin: 0 0 1em 1em;
+  border-radius: 8px;
+}
+
 /* Footer */
 footer {
   background-color: #c96e49;
