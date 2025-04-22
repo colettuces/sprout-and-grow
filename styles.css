@@ -26,6 +26,11 @@ header {
   margin: 0 auto 20px auto;
 }
 
+.hands {
+  wdth: 25%;
+  max-width: 250px;
+}
+
 /* Navigation */
 nav ul {
   list-style-type: none;
