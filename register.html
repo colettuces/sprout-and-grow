@@ -1,36 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register | Sprout & Grow</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <header>
- <img src="logo.jpg" alt="Sprout & Grow Logo" class="logo" />
-     <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="shop.html">Shop</a></li>
-      <li><a href="events.html">Events</a></li>
-      <li><a href="register.html">Register</a></li>
-    </ul>
-  </nav>
-</header>
-    <main>
-        <!-- Events page content goes here: event descriptions, calendars, registration links -->
-    </main>
-   <footer>
-    <p>Connect with us:</p>
-    <a href="https://www.facebook.com/login/" target="_blank">
-      <img src="facebooklogo.png" alt="Facebook Logo" class="social-icon" />
+
+  <header>
+    <a href="index.html">
+      <img src="sprout-grow-horizontal-524.png" alt="Sprout & Grow Logo" class="logo">
     </a>
-    <a href="https://twitter.com/login" target="_blank">
-      <img src="xlogo.png" alt="X Logo" class="social-icon" />
-    </a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="register-section">
+      <h1>Register for an Event</h1>
+      <form action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="event">Select an Event:</label><br>
+        <select id="event" name="event" required>
+          <option value="">--Please choose an event--</option>
+          <option value="spring-planting">Spring Planting Workshop</option>
+          <option value="kids-gardening">Kids' Gardening Day</option>
+          <option value="composting-basics">Composting Basics Seminar</option>
+        </select><br><br>
+
+        <button type="submit">Register</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
     <p>&copy; 2025 Sprout & Grow. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
