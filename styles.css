@@ -1,6 +1,6 @@
 html, body {
   height: 100%;
-   margin: 10%;
+  margin: 10%;
   padding: 0 10%;
   font-family: 'Segoe UI', sans-serif;
   background-color: #f5f1e5;
@@ -9,15 +9,13 @@ html, body {
   flex-direction: column;
 }
 
-/* Header */
 header {
-  background-color: #a9cbb7; 
+  background-color: #a9cbb7;
   padding: 1em 0;
   text-align: center;
   color: #2f4f2f;
 }
 
-/* Logo */
 .logo {
   width: 30%;
   max-width: 300px;
@@ -27,11 +25,10 @@ header {
 }
 
 .hands {
-  wdth: 25%;
+  width: 25%;
   max-width: 175px;
 }
 
-/* Navigation */
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -53,8 +50,6 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Main Content */
-
 main {
   flex: 1;
   padding: 2em;
@@ -65,12 +60,12 @@ main {
 
 h1 {
   font-size: 2.5rem;
-  color: #2f4f2f; 
+  color: #2f4f2f;
   font-weight: 600;
   text-align: center;
   margin-bottom: 1em;
   letter-spacing: 0.5px;
-  font-family: 'Georgia', serif; 
+  font-family: 'Georgia', serif;
 }
 
 .float-image {
@@ -87,19 +82,46 @@ h1 {
   clear: both;
 }
 
-/* Footer */
 footer {
   background-color: #c96e49;
   padding: 1.5em 0;
   text-align: center;
   color: #fffbe6;
-  margin-top: auto; 
+  margin-top: auto;
 }
 
-/* Social Icons */
 .social-icon {
   width: 30px;
   height: 30px;
   margin: 0 10px;
   vertical-align: middle;
+}
+
+/* Simple Mobile Responsiveness */
+@media (max-width: 768px) {
+  html, body {
+    margin: 5%;
+    padding: 0 5%;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    width: 50%;
+  }
+
+  main {
+    margin: 0 5%;
+    padding: 1em;
+  }
+
+  .float-image {
+    float: none;
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 80%;
+  }
 }
