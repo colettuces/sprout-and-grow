@@ -71,6 +71,29 @@ footer img {
   vertical-align: middle;
   justify-content:center;
 }
+footer {
+  background-color: #8fbc8f;
+  color: #ffffff;
+  text-align: center;
+  padding: 1.5em 0;
+  margin-top: 2em;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  vertical-align: middle;
+}
 
 img {
   max-width: 100%;
