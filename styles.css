@@ -69,6 +69,7 @@ footer img {
   object-fit: contain;
   margin: 0 10px;
   vertical-align: middle;
+  justify-content:center;
 }
 
 img {
