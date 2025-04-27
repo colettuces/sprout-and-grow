@@ -4,27 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Register | Sprout & Grow</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
   <header>
-  <a href="index.html">
-    <img src="sprout-grow-horizontal-524.png" alt="Sprout & Grow Logo" class="logo">
-  </a>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="shop.html">Shop</a></li>
-      <li><a href="events.html">Events</a></li>
-      <li><a href="register.html">Register</a></li>
-    </ul>
-  </nav>
-</header>
+    <a href="index.html">
+      <img src="sprout-grow-horizontal-524.png" alt="Sprout & Grow Logo" class="logo">
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+    </nav>
+  </header>
 
   <main>
-    <section class="register-section">
+    <section>
       <h1>Register for an Event</h1>
       <form action="#" method="post">
         <label for="name">Name:</label><br>
@@ -33,15 +33,14 @@
         <label for="email">Email:</label><br>
         <input type="email" id="email" name="email" required><br><br>
 
-        <label for="event">Select an Event:</label><br>
+        <label for="event">Choose an Event:</label><br>
         <select id="event" name="event" required>
-          <option value="">--Please choose an event--</option>
-          <option value="spring-planting">Spring Planting Workshop</option>
-          <option value="kids-gardening">Kids' Gardening Day</option>
-          <option value="composting-basics">Composting Basics Seminar</option>
+          <option value="">Select an event</option>
+          <option value="planting">Spring Planting Workshop</option>
+          <option value="composting">Composting Basics</option>
         </select><br><br>
 
-        <button type="submit">Register</button>
+        <button type="submit">Submit</button>
       </form>
     </section>
   </main>
